@@ -1,0 +1,192 @@
+Risk and Incident Response Plan
+
+Scenario: Insider Threat Response at a University
+
+1. Purpose
+
+The purpose of this plan is to outline the actions the university will take to identify, contain, respond to, and recover from unauthorized access to the payroll system. This plan also identifies the risks associated with the incident and the long-term preventive measures needed to strengthen the university’s security posture.
+
+2. Scope
+
+This plan applies to:
+
+The Finance Department
+
+University payroll systems
+
+Internal staff accounts
+
+University IT & Security teams
+
+Any third-party systems connected to payroll or HR data
+
+3. Risk Assessment
+3.1 Threat Overview
+
+The incident involves suspicious late-night logins to the payroll system from an internal staff account. Potential threat actors include:
+
+A malicious or careless employee
+
+A curious student accessing staff credentials
+
+An external attacker using stolen credentials
+
+A social engineering or phishing attack
+
+3.2 Vulnerabilities Identified
+
+The investigation uncovered several weaknesses:
+
+Weak or reused passwords
+
+Lack of multi-factor authentication (MFA)
+
+Passwords written on sticky notes and left unsecured
+
+Little to no monitoring of after-hours access
+
+No automated alerts for suspicious network activity
+
+Lack of staff cybersecurity training
+
+3.3 Risk Impact
+CIA Triad	Impact	Description
+Confidentiality	High	SSNs, bank accounts, and salary data could be exposed.
+Integrity	Medium	Payroll data could be altered or manipulated.
+Availability	Medium	System downtime during investigation disrupts finance operations.
+
+Overall Risk Level: High
+
+4. Incident Response Plan
+
+The response plan follows the NIST Incident Response Lifecycle:
+Preparation → Detection → Containment → Eradication → Recovery → Lessons Learned
+
+4.1 Detection & Analysis
+
+System logs flagged late-night access from an unrecognized device
+
+IT Security confirmed the staff member was not online during those hours
+
+Multiple failed login attempts were observed prior to the successful login
+
+Network traffic analysis performed to check for IP masking or Tor usage
+
+Decision: Classify the event as a probable unauthorized access incident.
+
+4.2 Containment
+
+Immediate actions taken:
+
+Temporarily locked the affected staff account
+
+Forced university-wide password resets for finance staff
+
+Disabled remote access for the account until secure authentication was enabled
+
+Logged and preserved all access data for forensic review
+
+Blocked suspicious IP addresses and devices from further attempts
+
+4.3 Eradication
+
+Steps taken to remove threat components and prevent recurrence:
+
+Removed all unauthorized sessions
+
+Scanned endpoints for malware or credential-stealing tools
+
+Eliminated outdated credentials and password lists found in desks
+
+Implemented automated monitoring rules for unusual after-hours access
+
+Reviewed permission levels for all finance department accounts
+
+4.4 Recovery
+
+Actions to bring systems back to normal:
+
+Restored full access to payroll systems after verifying they were uncompromised
+
+Enabled MFA for all payroll users prior to reactivation
+
+Reconfigured log settings to increase visibility into suspicious behavior
+
+Conducted a controlled re-opening of payroll access with new security requirements
+
+Verified all financial data for integrity and accuracy
+
+4.5 Lessons Learned
+
+The organization must strengthen credential protection and remove poor practices such as password reuse and unsecured physical notes.
+
+MFA must be required for all sensitive university systems.
+
+Regular cybersecurity training is necessary to combat phishing and social engineering.
+
+Automated security alerts must be deployed to detect possible insider or external threats earlier.
+
+The university must implement continuous monitoring and auditing procedures.
+
+5. Preventive Controls and Recommendations
+5.1 Access Control Improvements
+
+Enforce least-privilege access
+
+Enable MFA for all finance, HR, and admin accounts
+
+Require complex passwords (minimum 12 characters, no reuse)
+
+Prohibit sticky notes, shared passwords, and insecure storage of credentials
+
+Conduct quarterly user account audits
+
+5.2 Network and System Controls
+
+Deploy Security Information and Event Management (SIEM) monitoring
+
+Enable alerts for after-hours access and unusual device logins
+
+Implement IDS/IPS to detect abnormal traffic patterns
+
+Require endpoint protection on all staff devices
+
+5.3 Training & Awareness
+
+Mandatory training every semester on:
+
+Phishing
+
+Password hygiene
+
+Reporting suspicious activity
+
+Distribute quick-reference guides for secure login practices
+
+5.4 Policy Updates
+
+Update Access Control Policy
+
+Update Password Policy
+
+Implement After-Hours Access Logging Policy
+
+Enforce disciplinary action for policy violations
+
+6. Communication Plan Summary
+
+As part of the response:
+
+IT will notify leadership and finance managers within 24 hours of any high-risk incident
+
+Staff must report unusual login alerts immediately
+
+Communication channels include email, ticketing system, and secure messaging
+
+Monthly cybersecurity bulletins will keep staff informed of updates and reminders
+
+7. Conclusion
+
+This incident demonstrates how weak credentials and lack of multi-factor authentication can create serious vulnerabilities, even within trusted university environments. By implementing the recommended controls—especially MFA, password hygiene enforcement, continuous monitoring, and staff training—the university will significantly reduce its exposure to insider threats and unauthorized access attempts.
+
+This response plan provides a structured approach to managing the current incident and preventing future breaches across the university’s financial systems.
