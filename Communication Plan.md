@@ -1,7 +1,7 @@
 # Communication Plan
 ## Insider Threat Incident – University Finance Department
 
-### 1. Purpose
+1. Purpose
 Provide structured communication steps for notifications, reporting, and updates during and after security incidents.
 
 ---
