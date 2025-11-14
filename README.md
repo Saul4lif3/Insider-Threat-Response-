@@ -1,4 +1,4 @@
-# Insider-Threat-Response-
+# Insider Threat Response at a University
 This file contains the full documentation and security analysis for the
 University Finance Department Insider Threat Scenario.
 
