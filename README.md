@@ -15,4 +15,4 @@ University Finance Department Insider Threat Scenario.
 - **Overleaf** (Executive Summary Template)
 
 ## Authors
-Saul, Nick, John
+Saul, Nick, Justin
