@@ -10,8 +10,9 @@ University Finance Department Insider Threat Scenario.
 
 ## Tools Used
 - **GitHub** (Documentation)
-- **Miro** (Data Flow Diagram)
+- **Miro** (Diagram)
 - **Trello** (Incident Workflow Tracking)
+- **Overleaf** (Executive Summary Template)
 
-## Author
-Joe – Enterprise Security Project
+## Authors
+Saul, Nick, John
