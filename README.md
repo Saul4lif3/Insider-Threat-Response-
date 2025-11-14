@@ -1,8 +1,5 @@
 # Insider-Threat-Response-
-University Threat Response Project – Finance Department Security Analysis
-# Insider Threat Response Project
-
-This repository contains the full documentation and security analysis for the
+This file contains the full documentation and security analysis for the
 University Finance Department Insider Threat Scenario.
 
 ## Documents Included
